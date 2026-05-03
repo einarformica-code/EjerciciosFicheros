@@ -1,4 +1,4 @@
-package pruebaFicheros;
+package boletin1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -42,7 +42,7 @@ public class Ejercicio2 {
 		while((linea = lectorLineas.readLine()) != null) {
 			
 			for(int num: linea) {
-				listaNumeros.add(Integer.parseInt());
+				listaNumeros.add(Integer.parseInt(linea));
 			}
 			
 		}
